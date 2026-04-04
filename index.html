@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yagnesh Dawankar — Robotics Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Background Grid -->
+  <div class="bg-grid"></div>
+  <div class="bg-noise"></div>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">YGD<span class="accent">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="nav-cta" href="assets/resume.pdf" target="_blank">Resume ↗</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-tag">
+      <span class="dot pulse"></span>
+      Available for Opportunities
+    </div>
+    <h1 class="hero-name">
+      <span class="line" data-delay="0">Yagnesh</span>
+      <span class="line italic" data-delay="100">Gitesh</span>
+      <span class="line" data-delay="200">Dawankar</span>
+    </h1>
+    <p class="hero-title">Robotics &amp; Controls Engineer</p>
+    <p class="hero-sub">
+      Building systems where machines sense, decide, and act.<br />
+      From warehouse floors to neurorehabilitation labs.
+    </p>
+    <div class="hero-chips">
+      <span>ROS 2</span><span>Python</span><span>C++</span>
+      <span>Control Systems</span><span>Computer Vision</span>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-label"><span>01</span> About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Engineering meets <em>purpose.</em></h2>
+        <p>
+          I'm a robotics and mechatronics engineer based in West Lafayette, Indiana,
+          pursuing an MS in Robotics. My work spans autonomous systems, computer
+          vision, and embedded control — from PLC-driven industrial automation to
+          ROS 2 mobile robots.
+        </p>
+        <p>
+          My grandfather suffered a subdural hematoma that erased his memory entirely.
+          Watching that shaped my research focus: I'm driven to build robotic systems
+          for neurorehabilitation — exoskeletons for post-hematoma recovery and precision
+          platforms for stem cell delivery to the brain.
+        </p>
+        <p>
+          Outside the lab, I've trekked Kedarkantha, taught underprivileged kids interview
+          skills with an NGO, and I never miss football on weekends.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">2</span>
+          <span class="stat-label">Research Papers Published</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Years in Robotics &amp; Automation</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Programming Languages</span>
+        </div>
+        <div class="stat-card accent-card">
+          <span class="stat-num">MS</span>
+          <span class="stat-label">Robotics — Pursuing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-label"><span>02</span> Skills</div>
+    <h2 class="section-title">Technical Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Software &amp; Frameworks</h3>
+        <div class="skill-tags">
+          <span>ROS / ROS 2</span>
+          <span>Python</span>
+          <span>C++</span>
+          <span>Lua</span>
+          <span>TensorFlow / Keras</span>
+          <span>PyTorch</span>
+          <span>OpenCV</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Hardware &amp; Industrial</h3>
+        <div class="skill-tags">
+          <span>PLC Programming</span>
+          <span>SCADA</span>
+          <span>DAC Systems</span>
+          <span>Modbus / RS-485</span>
+          <span>KiCAD</span>
+          <span>3D Printing</span>
+          <span>Machine Vision</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Domains</h3>
+        <div class="skill-tags">
+          <span>Control Systems</span>
+          <span>Computer Vision</span>
+          <span>Mechatronics</span>
+          <span>Path Planning</span>
+          <span>Robot Integration</span>
+          <span>Warehouse Automation</span>
+          <span>IoT / MQTT</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-label"><span>03</span> Projects</div>
+    <h2 class="section-title">Selected Work</h2>
+    <div class="projects-list">
+
+      <div class="project-card" data-index="01">
+        <div class="project-meta">
+          <span class="project-tag">Embedded Systems</span>
+          <span class="project-tag">IoT</span>
+        </div>
+        <h3>WGD-100 Wireless Gas Detector</h3>
+        <p>Designed and deployed a wireless gas detection system for BPCL, GNGPL, and GAIL. Integrated Modbus/RS-485 communication, GSM connectivity, and MQTT over IoT gateways (SIG/SIS series) for real-time hazard monitoring.</p>
+        <div class="project-tech">Modbus · RS-485 · GSM · MQTT · KiCAD</div>
+      </div>
+
+      <div class="project-card" data-index="02">
+        <div class="project-meta">
+          <span class="project-tag">Robotics</span>
+          <span class="project-tag">ROS 2</span>
+        </div>
+        <h3>PID Controller — TurtleBot Navigation</h3>
+        <p>Implemented a PID controller for a TurtleBot3 in ROS 2, enabling precise trajectory following. Resolved colcon build and environment sourcing issues to achieve stable closed-loop control.</p>
+        <div class="project-tech">ROS 2 · Python · PID · TurtleBot3</div>
+      </div>
+
+      <div class="project-card" data-index="03">
+        <div class="project-meta">
+          <span class="project-tag">Computer Vision</span>
+          <span class="project-tag">Deep Learning</span>
+        </div>
+        <h3>CNN Image Classifier</h3>
+        <p>Built and trained a Convolutional Neural Network for image classification using both TensorFlow/Keras and PyTorch/TorchVision pipelines, benchmarking performance across frameworks.</p>
+        <div class="project-tech">Python · TensorFlow · PyTorch · Keras</div>
+      </div>
+
+      <div class="project-card" data-index="04">
+        <div class="project-meta">
+          <span class="project-tag">Algorithms</span>
+          <span class="project-tag">Path Planning</span>
+        </div>
+        <h3>A* &amp; Dijkstra Path Planning</h3>
+        <p>Implemented A* and Dijkstra's algorithms from scratch for robot navigation. Validated heuristic efficiency differences and applied results to a trajectory planning pipeline.</p>
+        <div class="project-tech">Python · Graph Search · Trajectory Planning</div>
+      </div>
+
+      <div class="project-card" data-index="05">
+        <div class="project-meta">
+          <span class="project-tag">Mechatronics</span>
+          <span class="project-tag">Sensors</span>
+        </div>
+        <h3>Light Frequency Detection &amp; Localization</h3>
+        <p>Final project for mechatronics course. Built a system to detect specific light frequencies and use sensor fusion for robot localization — integrating hardware sensing with software signal processing.</p>
+        <div class="project-tech">C++ · Sensor Fusion · Signal Processing</div>
+      </div>
+
+      <div class="project-card" data-index="06">
+        <div class="project-meta">
+          <span class="project-tag">Industrial</span>
+          <span class="project-tag">Automation</span>
+        </div>
+        <h3>Automated Car Parking System</h3>
+        <p>Designed a fully automated car parking system integrating PLC logic, mechanical actuation, and sensor-driven control for slot detection and vehicle routing.</p>
+        <div class="project-tech">PLC · SCADA · Mechatronics</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section" id="research">
+    <div class="section-label"><span>04</span> Research</div>
+    <h2 class="section-title">Published Papers</h2>
+    <div class="research-grid">
+      <div class="research-card">
+        <div class="research-number">01</div>
+        <div class="research-body">
+          <h3>Innovative System for Dynamic Weighing of Trains</h3>
+          <p>
+            A real-time, in-motion weighing system for railway wagons to prevent under/overloading.
+            Integrates load cell arrays with embedded processing for continuous monitoring without
+            halting train operations — improving freight safety and regulatory compliance.
+          </p>
+          <span class="research-badge">Railway · Embedded Systems · Safety</span>
+        </div>
+      </div>
+      <div class="research-card">
+        <div class="research-number">02</div>
+        <div class="research-body">
+          <h3>EcoSmart Irrigation: Harnessing Treated Wastewater for IoT-Integrated Agriculture</h3>
+          <p>
+            Designed an IoT-based precision irrigation system using treated wastewater, cutting
+            freshwater consumption while maintaining crop yield. Deployed sensor arrays and
+            automated valve control via MQTT, with real-time dashboard monitoring.
+          </p>
+          <span class="research-badge">IoT · Agriculture · Sustainability</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-interest">
+      <div class="interest-label">Current Research Interest</div>
+      <h3>Neurorehabilitation Robotics</h3>
+      <p>
+        Developing robotic exoskeletons for post-subdural-hematoma rehabilitation and
+        precision delivery platforms for stem cell therapy targeting the brain. Exploring
+        UCLA ECE faculty for MS thesis collaboration in this space.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-label"><span>05</span> Contact</div>
+    <div class="contact-block">
+      <h2>Let's build something<br /><em>that matters.</em></h2>
+      <p>Open to research collaborations, internships, and full-time roles in robotics, controls, and medical robotics.</p>
+      <div class="contact-links">
+        <a href="mailto:ydawanka@purdue.edu" class="contact-link">
+          <span class="link-icon">✉</span> ydawanka@purdue.edu
+        </a>
+        <a href="https://linkedin.com/in/yagnesh-dawankar" target="_blank" class="contact-link">
+          <span class="link-icon">↗</span> LinkedIn
+        </a>
+        <a href="https://github.com/yagnesh-dawankar" target="_blank" class="contact-link">
+          <span class="link-icon">↗</span> GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>Yagnesh Gitesh Dawankar © 2025</span>
+    <span>West Lafayette, Indiana</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
