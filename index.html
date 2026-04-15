@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yagnesh Dawankar — Robotics Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <div class="bg-grid"></div>
+  <div class="bg-noise"></div>
+
+  <nav>
+    <span class="nav-logo">YGD<span class="accent">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="nav-cta" href="assets/resume.pdf" target="_blank">Resume ↗</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-tag">
+      <span class="dot pulse"></span>
+      Available for Summer 2026 Internships
+    </div>
+    <h1 class="hero-name">
+      <span class="line" data-delay="0">Yagnesh</span>
+      <span class="line italic" data-delay="100">Gitesh</span>
+      <span class="line" data-delay="200">Dawankar</span>
+    </h1>
+    <p class="hero-title">Robotics &amp; Controls Engineer</p>
+    <p class="hero-sub">
+      Building systems where machines sense, decide, and act.<br />
+      From industrial floors to humanoid robots.
+    </p>
+    <div class="hero-chips">
+      <span>ROS 2</span><span>C++</span><span>Python</span>
+      <span>Control Systems</span><span>Embedded Hardware</span><span>Sim2Real</span>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-label"><span>01</span> About</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Full-stack robotics, <em>hardware to policy.</em></h2>
+        <p>
+          MS Robotics student at Purdue University, GPA 4.0. My background spans
+          ROS 2, control systems, embedded hardware, and industrial automation —
+          I like owning the full stack from PCB layout to RL policy.
+        </p>
+        <p>
+          Previously at Wipro PARI (FANUC arm integration, ASRS, machine vision
+          pipelines) and Ambetronics Engineers (ESP32 firmware, KiCAD PCB design,
+          industrial gas detection hardware deployed at BPCL, GNGPL, and GAIL).
+        </p>
+        <p>
+          Currently researching sim-to-real transfer for the Unitree G1 humanoid
+          at Purdue's IDEAS Lab — whole-body control, domain randomization, and
+          Real2Sim feedback loops.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">4.0</span>
+          <span class="stat-label">GPA — MS Robotics, Purdue</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">2</span>
+          <span class="stat-label">Research Papers Published</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">2</span>
+          <span class="stat-label">Industry Internships</span>
+        </div>
+        <div class="stat-card accent-card">
+          <span class="stat-num">9+</span>
+          <span class="stat-label">Projects &amp; Competitions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-label"><span>02</span> Skills</div>
+    <h2 class="section-title">Technical Stack</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages &amp; Frameworks</h3>
+        <div class="skill-tags">
+          <span>C</span><span>C++</span><span>Python</span>
+          <span>MATLAB</span><span>Shell</span><span>Verilog / VHDL</span>
+          <span>ROS 2</span><span>Micro-ROS</span><span>OpenCV</span>
+          <span>PyTorch</span><span>LeRobot</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Robotics &amp; Controls</h3>
+        <div class="skill-tags">
+          <span>PID · LQR · MPC</span><span>FK / IK</span>
+          <span>Trajectory Planning</span><span>Sensor Fusion</span>
+          <span>State Estimation</span><span>A* · RRT*</span>
+          <span>Whole-Body Control</span><span>RL (Sim2Real)</span>
+          <span>Imitation Learning</span><span>Simulink</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Hardware &amp; Tools</h3>
+        <div class="skill-tags">
+          <span>ESP32 · STM32</span><span>FPGA (Xilinx)</span>
+          <span>KiCAD</span><span>UART · SPI · I2C</span>
+          <span>RS-485 · MQTT</span><span>NVIDIA Isaac Sim</span>
+          <span>Gazebo · RViz</span><span>Docker · Linux</span>
+          <span>SolidWorks</span><span>FANUC · UR3 · Unitree G1</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-label"><span>03</span> Projects</div>
+    <h2 class="section-title">Selected Work</h2>
+    <div class="projects-list">
+
+      <div class="project-card" data-index="01">
+        <div class="project-meta">
+          <span class="project-tag">Ongoing Research</span>
+          <span class="project-tag">Humanoid</span>
+        </div>
+        <h3>Unitree G1 — Autonomous Navigation &amp; Posture Adaptation</h3>
+        <p>Whole-body controller fusing depth camera, 3D LiDAR, IMU, and joint encoders for morphology-adaptive navigation. RL locomotion policy trained in NVIDIA Isaac Sim with domain randomization; Sim2Real gap closed via Real2Sim feedback using hardware-logged actuator latencies and torque limits.</p>
+        <div class="project-tech">ROS 2 · NVIDIA Isaac Sim · WBC · RL · Sim2Real · IDEAS Lab, Purdue</div>
+      </div>
+
+      <a class="project-card project-link" data-index="02" href="https://github.com/yags28/turtlebot" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">Mobile Robotics</span>
+          <span class="project-tag">ROS 2</span>
+        </div>
+        <h3>Autonomous TurtleBot ROS 2 NavStack <span class="link-arrow">↗</span></h3>
+        <p>Hybrid A* and RRT* path planning with PID velocity control in real-time ROS 2 nodes, sub-5 cm tracking accuracy. RGB-D and LiDAR fusion for visual servoing; instrumentation pipeline that identified and eliminated 3 control-instability failure modes. Validated in Gazebo Ignition before sim-to-real on TurtleBot 3.</p>
+        <div class="project-tech">ROS 2 · A* · RRT* · PID · LiDAR · RGB-D · Gazebo — ME 597</div>
+      </a>
+
+      <a class="project-card project-link" data-index="03" href="https://github.com/yags28/ur3e" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">Manipulation</span>
+          <span class="project-tag">Controls</span>
+        </div>
+        <h3>UR3e Trajectory Planning <span class="link-arrow">↗</span></h3>
+        <p>6-DOF FK/IK pipeline using DH-parameterized transformations and closed-form IK, &lt;1 mm end-effector error across 80+ waypoints. Cubic-interpolation trajectory generation enforcing velocity limits (&lt;180°/s) and manipulability index &gt;0.02, eliminating singularity failures across 12 multi-segment paths.</p>
+        <div class="project-tech">Python · FK/IK · DH Parameters · RViz — ECE 569</div>
+      </a>
+
+      <a class="project-card project-link" data-index="04" href="https://github.com/yags28/so-arm101" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">Imitation Learning</span>
+          <span class="project-tag">Manipulation</span>
+        </div>
+        <h3>Visuomotor Imitation Learning — SO-ARM101 <span class="link-arrow">↗</span></h3>
+        <p>Brought up a SO-ARM101 dual-arm teleoperation platform (LeRobot), calibrated serial bus servos across 6 DOF. Recorded synchronized joint-state + RGB camera datasets, trained an ACT visuomotor policy, and deployed closed-loop on hardware. Resolved grasp-slippage and lighting-sensitivity failure modes via targeted data augmentation.</p>
+        <div class="project-tech">LeRobot · ACT Policy · PyTorch · Serial Bus Servos — IE 574</div>
+      </a>
+
+      <a class="project-card project-link" data-index="05" href="https://github.com/yags28/multi-robot-cell" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">Industrial</span>
+          <span class="project-tag">Automation</span>
+        </div>
+        <h3>Multi-Robot Industrial Automation Cell <span class="link-arrow">↗</span></h3>
+        <p>Architected a workcell integrating two Techman TM5 cobots and a Fetch AMR for pick-place-transport. Programmed coordinated motion sequences, collision-free path plans, and handoff synchronization in ROS 2 — zero inter-robot collisions across 50+ validation runs.</p>
+        <div class="project-tech">ROS 2 · Techman TM5 · Fetch AMR · Path Planning — IE 574</div>
+      </a>
+
+      <a class="project-card project-link" data-index="06" href="https://github.com/yags28/fpga-bot" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">FPGA</span>
+          <span class="project-tag">Embedded</span>
+        </div>
+        <h3>eYRC FPGA Bot <span class="link-arrow">↗</span></h3>
+        <p>Verilog-based control architecture on a Xilinx FPGA for a mobile robot navigating a dynamic arena. Implemented PWM motor drivers, encoder-based odometry, and UART communication modules in RTL — advanced to national finals of IIT Bombay's e-Yantra Robotics Competition.</p>
+        <div class="project-tech">Verilog · Xilinx FPGA · PWM · UART · Encoder Odometry</div>
+      </a>
+
+      <a class="project-card project-link" data-index="07" href="https://github.com/yags28/storm-robot" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">Mechatronics</span>
+          <span class="project-tag">Sensors</span>
+        </div>
+        <h3>STORM Robot <span class="link-arrow">↗</span></h3>
+        <p>Sensor-guided mobile robot integrating photodiode arrays, motor encoders, and H-bridge motor drivers on an Arduino control stack. Analog signal conditioning for light-frequency detection and closed-loop PID control for autonomous localization across varying ambient conditions.</p>
+        <div class="project-tech">Arduino · PID · Photodiodes · Signal Conditioning — ME 588</div>
+      </a>
+
+      <a class="project-card project-link" data-index="08" href="https://github.com/yags28/ecosmart-irrigation" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">IoT</span>
+          <span class="project-tag">Embedded</span>
+          <span class="project-tag published-tag">Published</span>
+        </div>
+        <h3>EcoSmart Irrigation <span class="link-arrow">↗</span></h3>
+        <p>Full-stack IoT irrigation system on ESP32 with soil moisture, temperature, humidity, and flow sensors. Custom PCB with signal conditioning, MQTT cloud telemetry, and automated valve control — 30% water consumption reduction across field trials. Published in INCOFT conference proceedings.</p>
+        <div class="project-tech">ESP32 · KiCAD · MQTT · PCB Design — University of Mumbai</div>
+      </a>
+
+      <a class="project-card project-link" data-index="09" href="https://github.com/yags28/train-weighing" target="_blank" rel="noopener">
+        <div class="project-meta">
+          <span class="project-tag">Sensors</span>
+          <span class="project-tag">Embedded</span>
+          <span class="project-tag published-tag">Published</span>
+        </div>
+        <h3>Dynamic Train Weighing System <span class="link-arrow">↗</span></h3>
+        <p>Real-time in-motion weighing system for railway wagons using strain gauge load cells and HX711 ADCs interfaced to an Arduino Mega. Signal conditioning and filtering circuits to extract accurate weight from dynamic rail loads. National Smart India Hackathon 2023. Published in Springer proceedings.</p>
+        <div class="project-tech">Arduino · Strain Gauges · HX711 · Signal Conditioning — SIH 2023</div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-label"><span>04</span> Contact</div>
+    <div class="contact-block">
+      <h2>Open to internships<br /><em>Summer 2026.</em></h2>
+      <p>Robotics · Controls · Embedded Systems · Industrial Automation</p>
+      <div class="contact-links">
+        <a href="mailto:ydawanka@purdue.edu" class="contact-link">
+          <span class="link-icon">✉</span> ydawanka@purdue.edu
+        </a>
+        <a href="https://linkedin.com/in/yagnesh-dawankar" target="_blank" class="contact-link">
+          <span class="link-icon">↗</span> linkedin.com/in/yagnesh-dawankar
+        </a>
+        <a href="https://github.com/yags28" target="_blank" class="contact-link">
+          <span class="link-icon">↗</span> github.com/yags28
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Yagnesh Gitesh Dawankar © 2025</span>
+    <span>West Lafayette, Indiana</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
